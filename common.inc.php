@@ -313,32 +313,21 @@ class Page{
                     <li><a href="groupinfo.php" class="campl-selected">People</a>
                         <ul class="campl-unstyled-list local-dropdown-menu">
                             <li><a href="groupinfo.php">Group Overview</a></li>
-                            <li><a href="#">Group Head</a>
+                            <li><a href="/groupinfo.php#grouphead">Group Head</a>
                             </li>
-                            <li><a href="#">Postdoctoral Researchers</a>
-                                <ul class="campl-unstyled-list local-dropdown-menu">
-                                    <li><a href="#">Modes of Study</a></li>
+                            <li><a href="/groupinfo.php#phdstudents">PhD Students</a>
 
-                                </ul>
                             </li>
-                            <li><a href="#">PhD Students</a>
-                                <ul class="campl-unstyled-list local-dropdown-menu">
-                                    <li><a href="#">Supporting Documentation</a></li>
+                            <li><a href="/groupinfo.php#visitors">Visiting Scientists</a>
 
-                                </ul>
                             </li>
-                            <li><a href="#">Visiting Scientists</a>
-                                <ul class="campl-unstyled-list local-dropdown-menu">
-                                    <li><a href="#">Status Of Your Application</a></li>
+                            <li><a href="/groupinfo.php#recentalum">Recent Alumni</a>
 
-                                </ul>
                             </li>
-                            <li><a href="#">Alumni</a>
-                                <ul class="campl-unstyled-list local-dropdown-menu">
-                                    <li><a href="#">Status Of Your Application</a></li>
+                            <li><a href="/groupinfo.php#famousalum">Distinguished Alumni</a>
 
-                                </ul>
                             </li>
+
                         </ul>
                     <li><a href="researchpapers.php">Research</a></li>
                     <li><a href="resources.php">Resources</a></li>
@@ -375,11 +364,11 @@ class Page{
                                 <li><a href="/groupinfo.php">People<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
                                 <ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation">
                                         <ul class='campl-unstyled-list campl-vertical-breadcrumb-children'>
-                                            <li><a href="#">Group Head</a></li>
-                                            <li><a href="#">PhD Students</a></li>
-                                            <li><a href="#">Visiting Scientists</a></li>
-                                            <li><a href="#">Recent Alumni</a></li>
-                                            <li><a href="#">Famous Alumni</a></li>
+                                            <li><a href="/groupinfo.php#grouphead">Group Head</a></li>
+                                            <li><a href="/groupinfo.php#phdstudents">PhD Students</a></li>
+                                            <li><a href="/groupinfo.php#visitors">Visiting Scientists</a></li>
+                                            <li><a href="/groupinfo.php#recentalum">Recent Alumni</a></li>
+                                            <li><a href="/groupinfo.php#famousalum">Distinguished Alumni</a></li>
                                         </ul>
 
 
@@ -419,6 +408,8 @@ class Page{
                  <div class="campl-content-container campl-navigation-list">
                      <ul class="campl-unstyled-list"><li><a href="http://www.admin.cam.ac.uk/univ/information/foi/">FOI</a></li>
                          <li><a href="http://www.msm.cam.ac.uk/privacy.html">Privacy</a></li>
+                         <li>Site maintained by <?php echo htmlspecialchars($this->site_maintainer) ?>.</li>
+                         <li>Goldsmith's Lab, <?php echo htmlspecialchars($this->year); ?>.</li>
                      </ul>
                  </div>
              </div>
@@ -570,14 +561,7 @@ function resourcelistitem($resourcename, $authors, $description, $url)
 <?php    }
 ?>
 
-<?php
-    class person{
-        private $name;
-        private $crsid;
-    }
 
-?>
-         
 
 
         
