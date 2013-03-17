@@ -36,8 +36,8 @@ class Page{
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
         <!-- CSS : implied media="all" -->
-        <link rel="stylesheet" href="../stylesheets/full-stylesheet.css" />
-        <link rel="stylesheet" href="../stylesheets/styleguide.css" />
+        <link rel="stylesheet" href="stylesheets/full-stylesheet.css" />
+        <link rel="stylesheet" href="stylesheets/styleguide.css" />
 
 
         <script type="text/javascript" src="//use.typekit.com/hyb5bko.js"></script>
@@ -52,7 +52,7 @@ class Page{
         <div class="campl-wrap clearfix">
             <div class="campl-header-container campl-column8" id="global-header-controls">
                 <a href="http://www.cam.ac.uk" class="campl-main-logo">
-                    <img alt="University of Cambridge"  src="../images/interface/main-logo-small.png" />
+                    <img alt="University of Cambridge"  src="images/interface/main-logo-small.png" />
                 </a>
 
                 <ul class="campl-unstyled-list campl-horizontal-navigation campl-global-navigation clearfix">
@@ -82,7 +82,7 @@ class Page{
                         <form action="http://search.cam.ac.uk/web" method="get">
                             <input id="header-search" type="text" name="query" value="" placeholder="Search"/>
 
-                            <input type="image" class="campl-search-submit " src="../images/interface/btn-search-header.png"/>
+                            <input type="image" class="campl-search-submit " src="images/interface/btn-search-header.png"/>
                         </form>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ class Page{
             <form class="campl-site-search-form" id="site-search-container" action="">
                 <div class="campl-search-form-wrapper clearfix">
                     <input type="text" class="text" placeholder="Search"/>
-                    <input type="image" class="campl-search-submit" src="../images/interface/btn-search.png" />
+                    <input type="image" class="campl-search-submit" src="images/interface/btn-search.png" />
                 </div>
             </form>
         </div>
@@ -316,18 +316,18 @@ class Page{
                     <li><a href="groupinfo.php" class="campl-selected">People</a>
                         <ul class="campl-unstyled-list local-dropdown-menu">
                             <li><a href="groupinfo.php">Group Overview</a></li>
-                            <li><a href="/groupinfo.php#grouphead">Group Head</a>
+                            <li><a href="groupinfo.php#grouphead">Group Head</a>
                             </li>
-                            <li><a href="/groupinfo.php#phdstudents">PhD Students</a>
+                            <li><a href="groupinfo.php#phdstudents">PhD Students</a>
 
                             </li>
-                            <li><a href="/groupinfo.php#visitors">Visiting Scientists</a>
+                            <li><a href="groupinfo.php#visitors">Visiting Scientists</a>
 
                             </li>
-                            <li><a href="/groupinfo.php#recentalum">Recent Alumni</a>
+                            <li><a href="groupinfo.php#recentalum">Recent Alumni</a>
 
                             </li>
-                            <li><a href="/groupinfo.php#famousalum">Distinguished Alumni</a>
+                            <li><a href="groupinfo.php#famousalum">Distinguished Alumni</a>
 
                             </li>
 
@@ -363,23 +363,23 @@ class Page{
                     <div class="campl-tertiary-navigation">
                         <div class="campl-tertiary-navigation-structure">
                             <ul class="campl-unstyled-list campl-vertical-breadcrumb">
-                                <li><a href="/index.php">Home<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
-                                <li><a href="/groupinfo.php">People<span class="campl-vertical-breadcrumb-indicator"></span></a>
+                                <li><a href="index.php">Home<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+                                <li><a href="groupinfo.php">People<span class="campl-vertical-breadcrumb-indicator"></span></a>
                                 <ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation">
                                        <li> <ul class='campl-unstyled-list campl-vertical-breadcrumb-children'>
-                                            <li><a href="/groupinfo.php#grouphead">Group Head</a></li>
-                                            <li><a href="/groupinfo.php#phdstudents">PhD Students</a></li>
-                                            <li><a href="/groupinfo.php#visitors">Visiting Scientists</a></li>
-                                            <li><a href="/groupinfo.php#recentalum">Recent Alumni</a></li>
-                                            <li><a href="/groupinfo.php#famousalum">Distinguished Alumni</a></li>
+                                            <li><a href="groupinfo.php#grouphead">Group Head</a></li>
+                                            <li><a href="groupinfo.php#phdstudents">PhD Students</a></li>
+                                            <li><a href="groupinfo.php#visitors">Visiting Scientists</a></li>
+                                            <li><a href="groupinfo.php#recentalum">Recent Alumni</a></li>
+                                            <li><a href="groupinfo.php#famousalum">Distinguished Alumni</a></li>
                                         </ul></li>
 
 
                                 </ul></li>
-                                <li><a href="/researchpapers.php">Research<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
-                                <li><a href="/resources.php">Resources<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
-                                <li><a href="/studentships.php">Vacancies<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
-                                <li><a href="/contact.php">Contact Us<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+                                <li><a href="researchpapers.php">Research<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+                                <li><a href="resources.php">Resources<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+                                <li><a href="studentships.php">Vacancies<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+                                <li><a href="contact.php">Contact Us<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
                             </ul>
 
                         </div>
@@ -418,7 +418,7 @@ class Page{
          <div class="campl-wrap clearfix">
              <div class="campl-column3 campl-footer-navigation">
                  <div class="campl-content-container campl-footer-logo">
-                     <img alt="University of Cambridge"  src="../images/interface/main-logo-small.png" class="campl-scale-with-grid" />
+                     <img alt="University of Cambridge"  src="images/interface/main-logo-small.png" class="campl-scale-with-grid" />
                      <p>&#169; 2013 University of Cambridge</p>
                      <ul class="campl-unstyled-list campl-global-footer-links">
                          <li>
