@@ -3,19 +3,12 @@
     $page = new Page('Home');
     $page->head();
     ?>
+
+
     
-    <body>
-    
-    <?php
-    $page->menutop();
-    $page->menuside(); 
-    ?>
-    
-    <div id="content">
-        
-        <div id="main_head">
-            <h1> Corrosion Science and Electrochemistry Group</h1>
-        </div>
+   <div class="campl-column9 campl-main-content" id="content">
+       <div class="campl-content-container">
+
         <div class="image_outer">
             <div id="home_photo">
                 <img src="images/feb_09_b_large.jpg" alt="Corrosion Science and Electrochemistry Group 2009" />
@@ -34,12 +27,12 @@
         practically orientated and we collaborate closely with industrial partners.</p>
 
         <p>Follow us on Twitter! <a href="https://twitter.com/GoldsmithsLab">@GoldsmithsLab</a></p>
+
+        </div>
+    </div>
     
         <?php
         $page->footer();
         ?>
     
-    </div>
-        
-    </body>
-</html>
+

@@ -3,22 +3,13 @@
     $page = new Page('Research Papers');
     $page->head();
     ?>
-    
-    <body>
-    
-    <?php
-    $page->menutop();
-    $page->menuside(); 
-    ?>
-    
-    <div id="content">
-        <div id="main_head">
-            <h1> Corrosion Science and Electrochemistry Group</h1>
-        </div>
-        <div id="page_head">
-            <h2> Research Papers</h2>
+
+<div class="campl-column9 campl-main-content" id="content">
+    <div class="campl-content-container">
+
+
             <h4> A selection of recent work, including Fuel Cells and Cyclic Thermammetry</h4>
-        </div>
+
         <div id="papers">
             <ul>
               
@@ -103,15 +94,8 @@
                                 ?>
               
             </ul>
-        </div>
+        </div></div></div>
         
         <?php
         $page->footer();
         ?>
-        
-    </div>   
-    
-    
-    </body> 
-    
-</html>

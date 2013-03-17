@@ -5,20 +5,11 @@
     ?>
     
     <body>
-    
-    <?php
-    $page->menutop();
-    $page->menuside(); 
-    ?>
+
     
     <div id="content">
         
-        <div id="main_head">
-            <h1> Corrosion Science and Electrochemistry Group</h1>
-        </div>
-        <div id="page_head">
-            <h2> Alumni</h2>
-        </div>
+
         <div id="recent_alumni_head">
             <h3>Recent Alumni</h3>
         </div>

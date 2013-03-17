@@ -4,20 +4,12 @@
     $page->head();
     ?>
     
-    <body>
+
+
     
-    <?php
-    $page->menutop();
-    $page->menuside(); 
-    ?>
-    
-    <div id="content">        
-        <div id="main_head">
-            <h1> Corrosion Science and Electrochemistry Group</h1>
-        </div>
-        <div id="page_head">
-            <h2> Resources</h2>
-        </div>
+    <div class="campl-column9 campl-main-content" id="content">
+        <div class="campl-content-container">
+
         <p>Here are some resources from the group. These are available for general 
         interest, but please check with the authors before duplicating or citing the content. 
         Of course the content is not warranteed for any purpose. All rights reserved.</p>
@@ -42,13 +34,9 @@
             "FuelCellsPresentation.ppt");
             ?>
             </ul>
-        </div>
+        </div></div></div>
         
         <?php
         $page->footer();
         ?>       
-        
-    </div>
-                
-    </body>
-</html>
+

@@ -5,21 +5,11 @@
     ?>
     
     <body>
-    
-    <?php
-    $page->menutop();
-    $page->menuside(); 
-    ?>
+
     
     <div id="content" class="group_photo">
         
-        <div id="main_head">
-            <h1> Corrosion Science and Electrochemistry Group</h1>
-        </div>
-        <div id="page_head">
-            <h2> Group Photos</h2>
-        </div>
-        
+
         <div class="image_outer">
                 <div class="image_caption"><a href="images/feb_09_a_large.jpg"><img src="images/feb_09_a_thumb.jpg" alt="Feb 2009" title="Click here for larger image"/></a>
                 <div class="caption">February 2009</div></div>

@@ -284,10 +284,13 @@ class Page{
                         <ul class="campl-unstyled-list campl-horizontal-navigation clearfix">
                             <!-- Directory list at top of page -->
                             <li class='first-child'>
-                                <a href="#" class="campl-home ir">Home</a>
+                                <a href="http://www.cam.ac.uk" class="campl-home ir">Home</a>
                             </li>
                             <li>
-                                <a href="">Corrosion Science and Electrochemistry Group</a>
+                                <a href="http://www.msm.cam.ac.uk">Department of Materials Science and Metallurgy</a>
+                            </li>
+                            <li>
+                                <a href="http://www.msm.cam.ac.uk/corrosion">Corrosion Science and Electrochemistry Group</a>
                             </li>
                             <li>
                                 <p class="campl-current"><?php echo $this->pagetitle; ?></p>
@@ -361,18 +364,18 @@ class Page{
                         <div class="campl-tertiary-navigation-structure">
                             <ul class="campl-unstyled-list campl-vertical-breadcrumb">
                                 <li><a href="/index.php">Home<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
-                                <li><a href="/groupinfo.php">People<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
+                                <li><a href="/groupinfo.php">People<span class="campl-vertical-breadcrumb-indicator"></span></a>
                                 <ul class="campl-unstyled-list campl-vertical-breadcrumb-navigation">
-                                        <ul class='campl-unstyled-list campl-vertical-breadcrumb-children'>
+                                       <li> <ul class='campl-unstyled-list campl-vertical-breadcrumb-children'>
                                             <li><a href="/groupinfo.php#grouphead">Group Head</a></li>
                                             <li><a href="/groupinfo.php#phdstudents">PhD Students</a></li>
                                             <li><a href="/groupinfo.php#visitors">Visiting Scientists</a></li>
                                             <li><a href="/groupinfo.php#recentalum">Recent Alumni</a></li>
                                             <li><a href="/groupinfo.php#famousalum">Distinguished Alumni</a></li>
-                                        </ul>
+                                        </ul></li>
 
 
-                                </ul>
+                                </ul></li>
                                 <li><a href="/researchpapers.php">Research<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
                                 <li><a href="/resources.php">Resources<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
                                 <li><a href="/studentships.php">Vacancies<span class="campl-vertical-breadcrumb-indicator"></span></a></li>
@@ -386,12 +389,6 @@ class Page{
     <!-- content start -->
 
 
-
-
-
-
-
- </head>   
         <?php  }
         
         function footer()
@@ -530,10 +527,7 @@ class Page{
      <script type="text/javascript" src="javascripts/custom.js"></script>
 </body>
 </html>
-     <div id="footer">
-    Goldsmiths' Lab, <?php echo htmlspecialchars($this->year); ?>.
-    Site designed and maintained by <?php echo htmlspecialchars($this->site_maintainer) ?>.
-    </div>
+
 <?php     }
 
 }  
@@ -559,15 +553,3 @@ function resourcelistitem($resourcename, $authors, $description, $url)
     <br/> <?php echo htmlspecialchars($description); ?> </li>
         
 <?php    }
-?>
-
-
-
-
-        
-
-       
-    
-    
-
-

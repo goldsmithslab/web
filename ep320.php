@@ -11,7 +11,6 @@
     $page->head();
 ?>
 
-<body>
 
 <div class="campl-column9 campl-main-content" id="content">
     <div class="campl-content-container">
@@ -20,10 +19,10 @@
             <div class="campl-column9">
                 <div class="campl-content-container campl-listing-txt">
                     <h2>Contact Information</h2>
-                    <p><a href="" class="campl-btn-download-vcard campl-primary-cta" ><span class="campl-download-arrow">Download vCard</span></a>
+
 
                     <p class="campl-break-word">Telephone: +44 (0)1223(3)34371 <br />
-                        Email: <a href="">ep320@cam.ac.uk</a> <br />
+                        Email: <a href="mailto:ep320@cam.ac.uk">ep320@cam.ac.uk</a> <br />
 
 
                 </div>
@@ -57,12 +56,12 @@
         <p><a href="http://www.youtube.com/watch?v=QoWAKg6FDTM">Pewsey and Peter Present...</a><br/>
             Ever wondered why you get the urge to pee when it's cold? I help my friend Peter explain why.</p>
         <p><a href="http://europepmc.org/ScienceWritingCompetition">Access to Understanding Competition</a><br/>
-            Won first prize with an article about <a href="10.1371/journal.pone.0038466">recent research</a> investigating why hips fracture.
+            Won first prize with an article about <a href="http://dx.doi.org/10.1371/journal.pone.0038466">recent research</a> investigating why hips fracture.
             Article published in <a href="http://elife.elifesciences.org/content/2/e00646">eLife</a>.</p>
 
 
 
-        <h2>Publications</h2>
+
 
 
 
@@ -86,22 +85,8 @@
     </div>
 </div>
 
-</div>
-</div>
 
-
-
-    </div>
-
-
-
-
-</div>
 
 <?php
 $page->footer();
 ?>
-
-
-</body>
-</html>
