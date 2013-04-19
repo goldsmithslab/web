@@ -334,6 +334,19 @@ class Page{
                         </ul>
                     <li><a href="researchpapers.php">Research</a></li>
                     <li><a href="resources.php">Resources</a></li>
+                    <li><a href="resources.php.php" class="campl-selected">People</a>
+                        <ul class="campl-unstyled-list local-dropdown-menu">
+                            <li><a href="resources.php">Resources</a></li>
+                            <li><a href="resources.php#background">Introduction to Electrochemistry</a>
+                            </li>
+                            <li><a href="resources.php.php#presentations">Group Presentations</a>
+
+                            </li>
+                            <li><a href="resources.php#lab">Lab Resources</a>
+
+                            </li>
+
+                        </ul>
                     <li><a href="studentships.php">Vacancies</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
 

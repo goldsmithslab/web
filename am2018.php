@@ -52,8 +52,8 @@ $page->head();
         <h2>Publications</h2>
         <p></p> */ ?>
         <h2>Presentations</h2>
-        <p><a href="poster_Abdulaziz2012.pdf">Poster on Passivity and Corrosion of Spuermartensitic Stainless Steels</a> <br/>
-        Deparmental Prizewinner</p>
+        <p><a href="poster_Abdulaziz2012.pdf">Poster on Passivity and Corrosion of Supermartensitic Stainless Steels</a> <br/>
+        Departmental Prizewinner</p>
 
 
 

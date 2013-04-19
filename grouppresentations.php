@@ -17,9 +17,13 @@
          <div id="resources_list">
              <ul>
                  <?php
+                    resourcelistitem("Poster on Passivity and Corrosion of Supermartensitic Stainless Steels",
+                     "Abdulaziz Moshaweh and Tim Burstein",
+                     "Departmental Prizewinner",
+                     "poster_Abdulaziz2012.pdf");
                      resourcelistitem("Poster on Thermammetry",
                      "Ben T Daymond, Monica Caboneras and G Tim Burstein",
-                     "Departmental Prizewinner!",
+                     "Departmental Prizewinner",
                      "btd-thermammetry.pdf");
                      resourcelistitem("Summary of group work on practical fuel cells",
                      "E.J. Rees, C.D.A. Brady, Z.H. Barber, G.T. Burstein",
