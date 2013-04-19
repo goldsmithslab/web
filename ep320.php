@@ -56,7 +56,7 @@
         <p><a href="http://www.youtube.com/watch?v=QoWAKg6FDTM">Pewsey and Peter Present...</a><br/>
             Ever wondered why you get the urge to pee when it's cold? I help my friend Peter explain why.</p>
         <p><a href="http://europepmc.org/ScienceWritingCompetition">Access to Understanding Competition</a><br/>
-            Won first prize with an article about <a href="http://dx.doi.org/10.1371/journal.pone.0038466">recent research</a> investigating why hips fracture.
+            I won first prize with an article about <a href="http://dx.doi.org/10.1371/journal.pone.0038466">recent research</a> investigating why hips fracture.
             Article published in <a href="http://elife.elifesciences.org/content/2/e00646">eLife</a>.</p>
 
 

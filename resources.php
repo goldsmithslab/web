@@ -16,6 +16,10 @@
         <div id="resources_list">
             <ul>
             <?php
+                resourcelistitem("Poster on Passivity and Corrosion of Spuermartensitic Stainless Steels",
+                    "Abdulaziz Moshaweh and Tim Burstein",
+                    "Departmental Prizewinner",
+                    "poster_Abdulaziz2012.pdf");
             resourcelistitem("PDF of Linux/LaTeX Installation Guide",
             "Eric",
             "Instructions for Installing LaTeX. This is actually for my use, so don't expect it to make a lot of sense. It may be useful for installing stuff.",

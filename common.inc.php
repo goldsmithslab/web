@@ -553,3 +553,13 @@ function resourcelistitem($resourcename, $authors, $description, $url)
     <br/> <?php echo htmlspecialchars($description); ?> </li>
         
 <?php    }
+
+function noauthresourcelistitem($resourcename, $description, $url)
+{   ?>
+<li><a href="<?php echo htmlspecialchars($url); ?>"
+       title="<?php echo htmlspecialchars($resourcename); ?>">
+    <?php echo htmlspecialchars($resourcename); ?>
+</a>
+    <br/> <?php echo htmlspecialchars($description); ?> </li>
+
+<?php    } ?>
