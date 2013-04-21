@@ -333,10 +333,9 @@ class Page{
 
                         </ul>
                     <li><a href="researchpapers.php">Research</a></li>
-                    <li><a href="resources.php">Resources</a></li>
-                    <li><a href="resources.php.php" class="campl-selected">People</a>
+                    <li><a href="resources.php" class="campl-selected">Resources</a>
                         <ul class="campl-unstyled-list local-dropdown-menu">
-                            <li><a href="resources.php">Resources</a></li>
+                            <li><a href="resources.php">All Resources</a></li>
                             <li><a href="resources.php#background">Introduction to Electrochemistry</a>
                             </li>
                             <li><a href="resources.php.php#presentations">Group Presentations</a>

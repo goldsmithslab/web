@@ -22,7 +22,7 @@
 
 
                     <p class="campl-break-word">Telephone: +44 (0)1223(3)34371 <br />
-                        Email: <a href="mailto:ep320@cam.ac.uk">ep320@cam.ac.uk</a> <br />
+                        Email: ep320 <br />
 
 
                 </div>
@@ -47,6 +47,11 @@
             a few hundred microseconds long, which may alter the corrosion behaviour of the metal.</p>
         <p>My research investigates how the corrosion of metallic orthopaedic implants is affected by the application of such short voltage pulses, using a variety of
             novel techniques.</p>
+
+        <h2>Publications and Presentations</h2>
+
+        <p><a href="ep320poster.pdf">The Effect of Short Voltage Pulses on 316L Stainless Steel</a> <br/>
+        Poster designed for the department's 2nd year PhD student poster presentation.</p>
 
         <h2>Other Interests</h2>
         <p>When not performing scientific research, I like to talk about it!</p>

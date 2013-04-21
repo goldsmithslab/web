@@ -24,7 +24,7 @@ $page->head();
 
 
                     <p class="campl-break-word">Telephone: +44 (0)1223(3)34371 <br />
-                        Email: <a href="mailto:vc273@cam.ac.uk">vc273@cam.ac.uk</a> <br />
+                        Email: vc273@cam.ac.uk<br />
 
 
                 </div>

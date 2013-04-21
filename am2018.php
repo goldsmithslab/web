@@ -24,7 +24,7 @@ $page->head();
 
 
                     <p class="campl-break-word">Telephone: +44 (0)1223(3)34371 <br />
-                        Email: <a href="mailto:am2018@cam.ac.uk">am2018@cam.ac.uk</a> <br />
+                        Email: am2018 <br />
 
 
                 </div>
@@ -51,7 +51,7 @@ $page->head();
 
         <h2>Publications</h2>
         <p></p> */ ?>
-        <h2>Presentations</h2>
+        <h2>Publications and Presentations</h2>
         <p><a href="poster_Abdulaziz2012.pdf">Poster on Passivity and Corrosion of Supermartensitic Stainless Steels</a> <br/>
         Departmental Prizewinner</p>
 
